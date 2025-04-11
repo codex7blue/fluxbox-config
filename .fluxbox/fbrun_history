@@ -1,0 +1,2 @@
+loginctl reboot
+loginctl poweroff

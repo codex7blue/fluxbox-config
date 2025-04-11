@@ -1,0 +1,98 @@
+@define-color ghost0 #B3A2A3;  /* Background utama */
+@define-color ghost1 #B3A2A3;
+@define-color ghost2 #EE4B51;
+@define-color ghost3 #EE4b51;
+@define-color ghost4 #EBDBB2;  /* Teks utama */
+@define-color ghost5 #F0E5CF;
+@define-color ghost6 #FFF1E5;
+@define-color ghost7 #A35659;
+@define-color ghost8 #AD7F81;
+@define-color ghost9 #EB3C42;  /* Merah tajam */
+@define-color ghost10 #EB3C42;
+@define-color ghost11 #EB3C42;
+@define-color ghost12 #EB3C42;
+@define-color ghost13 #EBCB8B;
+@define-color ghost14 #A3BE8C;
+@define-color ghost15 #B48EAD;
+
+* {
+    background-color: @ghost0;
+    color: @ghost4;
+}
+
+window {
+    background-color: @ghost0;
+}
+
+entry, entry:focus {
+    background-color: @ghost2;
+    color: @ghost6;
+    border: 1px solid @ghost9;
+}
+
+button {
+    background-color: @ghost9;
+    color: @ghost6;
+    border-radius: 4px;
+    border: 1px solid @ghost9;
+    padding: 6px 12px;
+}
+
+button:hover {
+    background-color: @ghost10;
+    color: @ghost0;
+}
+
+button:active {
+    background-color: @ghost11;
+}
+
+scrollbar slider {
+    background-color: @ghost10;
+    border-radius: 10px;
+}
+
+scrollbar slider:hover {
+    background-color: @ghost11;
+}
+
+progressbar,
+progressbar trough {
+    background-color: @ghost2;
+}
+
+progressbar progress {
+    background-color: @ghost9;
+}
+
+menu, menuitem {
+    background-color: @ghost1;
+    color: @ghost4;
+}
+
+menuitem:hover {
+    background-color: @ghost11;
+    color: @ghost0;
+}
+
+tooltip {
+    background-color: @ghost3;
+    color: @ghost6;
+    border-radius: 4px;
+}
+
+checkbutton, radiobutton {
+    color: @ghost4;
+}
+
+checkbutton:checked, radiobutton:checked {
+    color: @ghost9;
+}
+
+a {
+    color: @ghost11;
+}
+
+a:hover {
+    color: @ghost13;
+}

@@ -1,0 +1,39 @@
+[general]
+framerate = 60
+bars = 0
+gradient = 1
+reverse = 0
+monstercat = 1
+waves = 0
+lower_cutoff_freq = 50
+higher_cutoff_freq = 10000
+
+[input]
+method = pulse
+source = auto
+
+[output]
+method = ncurses
+channels = stereo
+raw_target = /dev/stdout
+data_format = ascii
+ascii_max_range = 100
+
+[color]
+background = '#040406'
+
+foreground = '#EB3C42'
+gradient_color_1 = '#A35659'
+gradient_color_2 = '#EE4B51'
+gradient_color_3 = '#E15E63'
+gradient_color_4 = '#AD7F81'
+gradient_color_5 = '#B3A2A3'
+gradient_color_6 = '#eec7c9'
+gradient_color_7 = '#a68b8c'
+gradient_color_8 = '#EB3C42'
+gradient_color_9 = '#A35659'
+gradient_color_10 = '#EE4B51'
+gradient_color_11 = '#E15E63'
+gradient_color_12 = '#AD7F81'
+gradient_color_13 = '#B3A2A3'
+gradient_color_14 = '#eec7c9'

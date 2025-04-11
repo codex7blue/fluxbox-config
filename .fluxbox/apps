@@ -1,0 +1,13 @@
+[app] (name=fbrun)
+  [Position]	(CENTER)	{0 0}
+  [Layer]	{2}
+[end]
+[app] (name=Alacritty) (class=Alacritty)
+  [Close]	{yes}
+[end]
+[app] (name=cava)
+  [Dimensions]	{100% 100%}
+  [Position]	(UPPERLEFT)	{0 0}
+  [Deco]	{NONE}
+  [Layer]	{12}
+[end]

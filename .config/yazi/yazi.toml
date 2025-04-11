@@ -1,0 +1,30 @@
+[manager]
+ratio = [1, 4, 3]  # Panel: Sidebar 1 | Main 4 | Preview 3
+show_hidden = true  # Tampilkan file tersembunyi
+sort_by = "natural"
+sort_reverse = false
+sort_dir_first = true
+
+[display]
+icon = true
+indicator = "▶"
+tab_width = 4
+border_symbol = "│"
+
+[theme]
+fg = "#EBDBB2"
+bg = "#040406"
+cursor = "#EBDBB2"
+selection = "#EB3C42"
+title = "#A35659"
+highlight = "#EB3C42"
+status_fg = "#EBDBB2"
+status_bg = "#040406"
+border = "#AD7F81"
+preview_fg = "#EBDBB2"
+preview_bg = "#040406"
+error_fg = "#EB3C42"
+info_fg = "#B3A2A3"
+[preview]
+max_width = 100
+max_height = 40 

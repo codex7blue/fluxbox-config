@@ -1,0 +1,99 @@
+#
+## Menu generated with fbmenugen v0.85
+#
+
+[begin] (Fluxbox)
+[encoding] {UTF-8}
+  [exec] (File Manager) {thunar} </home/codex/.config/fbmenugen/icons/ca49b53700544fbb4396ce582cd1b21f.png>
+  [exec] (Terminal) {alacritty} </home/codex/.config/fbmenugen/icons/f4d01c2c21f0b223e47fd229f308c4b2.png>
+  [exec] (Web Browser) {xdg-open http://} </home/codex/.config/fbmenugen/icons/a77f01da37c5cbac296dcd98af0a789e.png>
+  [exec] (Run command) {fbrun} </home/codex/.config/fbmenugen/icons/ec00e1af2bb771ef2e8e369ab9580858.png>
+[separator]
+[submenu] (Accessories) </home/codex/.config/fbmenugen/icons/ba22f28501353f6e3e6268a68e42e1d3.png>
+  [exec] (About Xfce) {xfce4-about} </home/codex/.config/fbmenugen/icons/f4af31e1815061daff3a2c3b749fbacb.png>
+  [exec] (Bulk Rename) {thunar --bulk-rename} </home/codex/.config/fbmenugen/icons/ca49b53700544fbb4396ce582cd1b21f.png>
+  [exec] (Yazi) {xterm -e 'yazi'} </home/codex/.config/fbmenugen/icons/7dbe2cef63192376aa2717de7c822e3d.png>
+[end]
+[submenu] (Development) </home/codex/.config/fbmenugen/icons/5ed5c815f646a2c8f96bc7991aa39d49.png>
+  [exec] (Emacs (Client\)) {sh -c "if [ -n \"\$*\" ]; then exec /usr/bin/emacsclient --alternate-editor= --display=\"\$DISPLAY\" \"\$@\"; else exec emacsclient --alternate-editor= --create-frame; fi" sh} </home/codex/.config/fbmenugen/icons/b9df96183590fe1b2eabafa2fa8f9c1a.png>
+  [exec] (Emacs) {emacs} </home/codex/.config/fbmenugen/icons/b9df96183590fe1b2eabafa2fa8f9c1a.png>
+[end]
+[submenu] (Graphics) </home/codex/.config/fbmenugen/icons/53185864f4136b00ca3d1b4de94808d1.png>
+  [exec] (Document Viewer) {evince} </home/codex/.config/fbmenugen/icons/cef11714637407ad6378211fea0b9e50.png>
+[end]
+[submenu] (Multimedia) </home/codex/.config/fbmenugen/icons/870b56e7aa7ece1a94c178e5ca717b28.png>
+  [exec] (HandBrake) {ghb} </home/codex/.config/fbmenugen/icons/e3bf0762fc00562eb9b7925756647b9f.png>
+  [exec] (mpv Media Player) {mpv --player-operation-mode=pseudo-gui --} </home/codex/.config/fbmenugen/icons/2a0afc74329aa1b739cbd61f9f3aee9b.png>
+  [exec] (OBS Studio) {obs} </home/codex/.config/fbmenugen/icons/d26f61991b6f7100231e14ee7dd91491.png>
+  [exec] (projectM Jack Audio Visualization) {projectM-jack} </home/codex/.config/fbmenugen/icons/db234576ebabc76de3a8c987b5c8f514.png>
+  [exec] (projectM PulseAudio Visualization) {projectM-pulseaudio} </home/codex/.config/fbmenugen/icons/db234576ebabc76de3a8c987b5c8f514.png>
+  [exec] (Qmmp) {qmmp-1} </home/codex/.config/fbmenugen/icons/e402c5a5fb3206c8849177b6de06c1d0.png>
+  [exec] (VLC media player) {/usr/bin/vlc --started-from-file} </home/codex/.config/fbmenugen/icons/3dff0d392e6fc4319bad3b5346d0012c.png>
+  [exec] (Volume Control) {pavucontrol} </home/codex/.config/fbmenugen/icons/375fdfa45d789937ef9d723c25101e75.png>
+[end]
+[submenu] (Network) </home/codex/.config/fbmenugen/icons/a77f01da37c5cbac296dcd98af0a789e.png>
+  [exec] (Firefox Web Browser) {firefox} </home/codex/.config/fbmenugen/icons/8de4a2a0f85f0816a29ca40becd190b7.png>
+[end]
+[submenu] (Office) </home/codex/.config/fbmenugen/icons/ef32a5e8a1cde75f50bbc9816dd96c66.png>
+  [exec] (Document Viewer) {evince} </home/codex/.config/fbmenugen/icons/cef11714637407ad6378211fea0b9e50.png>
+  [exec] (LibreOffice Calc) {libreoffice --calc} </home/codex/.config/fbmenugen/icons/babab0e80c923be7c493ca6a4a005075.png>
+  [exec] (LibreOffice Impress) {libreoffice --impress} </home/codex/.config/fbmenugen/icons/467eaa82526748ebe5ffab367c83d145.png>
+  [exec] (LibreOffice Writer) {libreoffice --writer} </home/codex/.config/fbmenugen/icons/a4bd925f1f19e1b5169a6ba340b239a9.png>
+  [exec] (LibreOffice) {libreoffice} </home/codex/.config/fbmenugen/icons/46503f097299e2fee3a751ab36a61954.png>
+  [exec] (Zathura) {zathura} </home/codex/.config/fbmenugen/icons/0fe86054f84189119ca7826dbe2d987a.png>
+[end]
+[submenu] (Settings) </home/codex/.config/fbmenugen/icons/24777a609e0460390697263ae67c6cd5.png>
+  [exec] (iwgtk) {iwgtk} </home/codex/.config/fbmenugen/icons/c0a1205f23664f2e6b913f3c28c28cf3.png>
+  [exec] (Thunar Preferences) {thunar-settings} </home/codex/.config/fbmenugen/icons/ca49b53700544fbb4396ce582cd1b21f.png>
+  [exec] (Volume Control) {pavucontrol} </home/codex/.config/fbmenugen/icons/375fdfa45d789937ef9d723c25101e75.png>
+[end]
+[submenu] (System) </home/codex/.config/fbmenugen/icons/3e20beafb1ec1103ba0ea874f9e0b533.png>
+  [exec] (Alacritty) {alacritty} </home/codex/.config/fbmenugen/icons/10717cb2ebad54047ab4358f5e4bd3bc.png>
+  [exec] (fish) {xterm -e 'fish'} </home/codex/.config/fbmenugen/icons/039a01feb193412dac9dfa187cc3f0b9.png>
+  [exec] (GSmartControl) {"/usr/bin/gsmartcontrol-root"} </home/codex/.config/fbmenugen/icons/a2f3072a719f5675b750b1122ae8da02.png>
+  [exec] (Htop) {xterm -e 'htop'} </home/codex/.config/fbmenugen/icons/f5718d0219535f24a375170bca6cd31c.png>
+  [exec] (Thunar File Manager) {thunar} </home/codex/.config/fbmenugen/icons/ca49b53700544fbb4396ce582cd1b21f.png>
+  [exec] (Yazi) {xterm -e 'yazi'} </home/codex/.config/fbmenugen/icons/7dbe2cef63192376aa2717de7c822e3d.png>
+[end]
+[separator]
+[submenu] (Advanced Settings) </home/codex/.config/fbmenugen/icons/a4f0b7c8afe54e269b5f2883a54e64ef.png>
+  [exec] (Conky RC) {geany ~/.conkyrc} </home/codex/.config/fbmenugen/icons/5e3ff5e79ce64d347bee1c0631690d0f.png>
+  [exec] (Tint2 Panel) {geany ~/.config/tint2/tint2rc} </home/codex/.config/fbmenugen/icons/5e3ff5e79ce64d347bee1c0631690d0f.png>
+[submenu] (Fbmenugen) </home/codex/.config/fbmenugen/icons/4fc76a2b3d9f23b10d46ae0e001cc90d.png>
+  [exec] (Menu Schema) {geany ~/.config/fbmenugen/schema.pl} </home/codex/.config/fbmenugen/icons/5e3ff5e79ce64d347bee1c0631690d0f.png>
+  [exec] (Menu Config) {geany ~/.config/fbmenugen/config.pl} </home/codex/.config/fbmenugen/icons/5e3ff5e79ce64d347bee1c0631690d0f.png>
+[separator]
+  [exec] (Generate a menu with icons) {fbmenugen -i} </home/codex/.config/fbmenugen/icons/4fc76a2b3d9f23b10d46ae0e001cc90d.png>
+  [exec] (Generate a menu without icons) {fbmenugen -g} </home/codex/.config/fbmenugen/icons/4fc76a2b3d9f23b10d46ae0e001cc90d.png>
+[separator]
+  [exec] (Refresh cache) {fbmenugen -d} </home/codex/.config/fbmenugen/icons/5aed92106a794756f4cd1b1f37ae1169.png>
+[end]
+[submenu] (Fluxbox) </home/codex/.config/fbmenugen/icons/f97261b6b3624fefa141b25e424273d2.png>
+[config] (Configure)
+[submenu] (System Styles) {Choose a style...}
+  [stylesdir] (/usr/share/fluxbox/styles)
+[end]
+[submenu] (User Styles) {Choose a style...}
+  [stylesdir] (~/.fluxbox/styles)
+[end]
+[workspaces] (Workspace List)
+[submenu] (Tools)
+  [exec] (Screenshot - JPG) {import screenshot.jpg && display -resize 50% screenshot.jpg}
+  [exec] (Screenshot - PNG) {import screenshot.png && display -resize 50% screenshot.png}
+  [exec] (Run) {fbrun}
+  [exec] (Regen Menu) {fluxbox-generate_menu}
+[end]
+[commanddialog] (Fluxbox Command)
+  [reconfig] (Reload config)
+  [restart] (Restart)
+  [exec] (About) {(fluxbox -v; fluxbox -info | sed 1d) | xmessage -file - -center}
+  [separator]
+  [exit] (Exit)
+[end]
+[end]
+[separator]
+  [exec] (Refresh) {/usr/bin/perl \/usr\/bin\/fbmenugen -i -S \/home\/codex\/\.config\/fbmenugen\/schema\.pl -C \/home\/codex\/\.config\/fbmenugen\/config\.pl -o \/home\/codex\/\.fluxbox\/menu} </home/codex/.config/fbmenugen/icons/5aed92106a794756f4cd1b1f37ae1169.png>
+[exit] (Exit) </home/codex/.config/fbmenugen/icons/0e5e58ad5a8c7b4ed0139f04b873b64e.png>
+
+[endencoding]
+[end]

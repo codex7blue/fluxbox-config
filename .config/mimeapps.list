@@ -1,0 +1,8 @@
+[Default Applications]
+application/octet-stream=userapp-nano-WBGV42.desktop
+application/x-trash=emacs.desktop
+
+[Added Associations]
+application/octet-stream=userapp-nano-WBGV42.desktop;
+video/mp4=vlc.desktop;mpv.desktop;fr.handbrake.ghb.desktop;
+application/x-trash=emacs.desktop;
